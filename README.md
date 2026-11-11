@@ -1,95 +1,94 @@
-# Excel Data Cleaning & Preparation Project
+# 📊 Excel Data Cleaning & Preparation
 
-A practical data-cleaning project completed during the Decodelabs Data Analytics Internship using Microsoft Excel 2021. The workbook documents the raw data, cleaned data, validation checks, and cleaning log for a dataset of 1,200 records and 14 columns.
+<div align="center">
 
-> **Privacy note:** Only publish a workbook or screenshots after checking that they contain no personal, confidential, or otherwise sensitive customer information. If the original data contains sensitive details, do not upload the raw-data worksheet or workbook. Share an anonymised copy instead.
+![Microsoft Excel 2021](https://img.shields.io/badge/Microsoft_Excel-2021-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Data Cleaning](https://img.shields.io/badge/Focus-Data_Cleaning-2563EB?style=for-the-badge)
+![Records](https://img.shields.io/badge/Records-1%2C200-7C3AED?style=for-the-badge)
 
-## Project overview
+**A practical data preparation project completed during the Decodelabs Data Analytics Internship.**
 
-The goal of this project was to prepare the dataset for reliable analysis by addressing missing values, checking for duplicate Order IDs, standardising date and currency formatting, and validating the resulting data. The work is organised in four worksheets:
+</div>
 
-- **Original Raw Data** — the source worksheet. Keep this private if it contains sensitive information.
-- **Cleaned_Data** — the prepared dataset.
-- **Data Quality Check** — validation results.
-- **Cleaning Log** — a record of cleaning actions.
+---
 
-## Objectives
+## ✨ Project overview
 
-- Inspect and prepare a 1,200-record, 14-column dataset in Excel.
+This project uses Microsoft Excel 2021 to clean and validate a dataset containing **1,200 records and 14 columns**. The workbook includes the original raw data, cleaned data, data quality checks, and a cleaning log.
+
+## 🎯 Objectives
+
+- Prepare the dataset for reliable analysis.
 - Handle missing Coupon Code values consistently.
 - Check Order IDs for duplicates.
 - Standardise date and currency formatting.
-- Validate the cleaned data and document the work.
+- Validate and document the cleaned dataset.
 
-## Tools
+## 🧰 Tools
 
-- Microsoft Excel 2021
-- GitHub for project documentation and portfolio presentation
+- **Microsoft Excel 2021** — data cleaning, formatting, and validation.
+- **GitHub** — project documentation and portfolio presentation.
 
-## Cleaning process
+## 🧹 Cleaning process
 
-1. Reviewed the raw data and identified missing Coupon Code entries.
+1. Reviewed the dataset and identified missing Coupon Code entries.
 2. Replaced **309** missing Coupon Code entries with **`No Coupon`**.
 3. Checked Order IDs for duplicates.
 4. Standardised date and currency formatting.
-5. Ran data quality checks and recorded the results in the workbook.
-6. Documented the cleaning work in the Cleaning Log.
+5. Performed data quality checks and recorded the work in the Cleaning Log.
 
-## Data quality results
+## ✅ Data quality results
 
 | Check | Result |
 |---|---:|
 | Records | 1,200 |
 | Columns | 14 |
-| Missing Coupon Code entries replaced with `No Coupon` | 309 |
+| Missing Coupon Code entries replaced | 309 |
 | Duplicate Order IDs | 0 |
 | Numeric date entries | 1,200 |
 | Remaining blank cells | 0 |
 
-## Repository contents
+## 🗂️ Workbook worksheets
 
-Add the approved, privacy-checked project files here. A suggested layout is:
+- **Original Raw Data** — source worksheet.
+- **Cleaned_Data** — prepared dataset.
+- **Data Quality Check** — validation results.
+- **Cleaning Log** — recorded cleaning actions.
 
-```text
-.
-├── README.md
-├── workbook/
-│   └── data_cleaning_preparation_anonymized.xlsx
-└── screenshots/
-    ├── cleaned-data-anonymized.png
-    ├── data-quality-checks.png
-    └── cleaning-log.png
-```
+## 📸 Project evidence
 
-The filenames above are suggestions. Upload only files that are safe to share. Do not include an unredacted raw-data file if it contains sensitive information.
+The screenshots below are the project screenshots currently in this repository. Open a screenshot to view it at full size.
 
-## Excel screenshots to include
+### Screenshot 1
+![Project screenshot 1](Screenshot%202026-11-11%20005353.png)
 
-Capture screenshots from the anonymised workbook that demonstrate the work without exposing real customer information:
+### Screenshot 2
+![Project screenshot 2](Screenshot%202026-11-11%20005422.png)
 
-1. **Cleaned data sample:** the `Cleaned_Data` worksheet showing column headers and a few representative rows. Replace or obscure customer-identifying values; retain only what is needed to demonstrate the cleaned structure.
-2. **Data quality checks:** the `Data Quality Check` worksheet showing the checks and results: 0 duplicate Order IDs, 1,200 numeric date entries, and 0 remaining blank cells. Ensure no sensitive values are visible.
-3. **Cleaning log:** the `Cleaning Log` worksheet showing the documented action for the 309 missing Coupon Code entries replaced with `No Coupon`, plus any other actions actually recorded in the workbook.
-4. **Workbook structure (optional):** a screenshot showing the worksheet tabs, with the workbook zoomed or window arranged so that no sensitive cell values are visible.
+### Screenshot 3
+![Project screenshot 3](Screenshot%202026-11-11%20005457.png)
 
-Do not present a screenshot of the raw-data sheet unless it has been anonymised and reviewed. Avoid screenshots that show customer names, email addresses, phone numbers, addresses, payment details, order-level identifiers, or other sensitive values. Crop the image to the relevant worksheet area and check the final image at full size before uploading.
+### Screenshot 4
+![Project screenshot 4](Screenshot%202026-11-11%20005513.png)
 
-When the screenshots have been uploaded to `screenshots/`, embed them in this section by adding Markdown image links, for example:
+### Screenshot 5
+![Project screenshot 5](Screenshot%202026-11-11%20005537.png)
 
-```markdown
-![Data quality checks](screenshots/data-quality-checks.png)
-```
+### Screenshot 6
+![Project screenshot 6](Screenshot%202026-11-11%20005620.png)
 
-## How to view the project
+### Screenshot 7
+![Project screenshot 7](Screenshot%202026-11-11%20005641.png)
 
-1. Download the anonymised Excel workbook from the `workbook/` folder.
-2. Open it in Microsoft Excel 2021 or a compatible spreadsheet application.
-3. Review `Cleaned_Data`, `Data Quality Check`, and `Cleaning Log`.
+## 📁 Project files
 
-## Privacy and responsible sharing
+- [Excel workbook — Dataset for Data Analytics.xlsx](Dataset%20for%20Data%20Analytics.xlsx)
+- [Internship project PDF](DECODELABS%20DATA%20ANALYTICS%20INTERNSHIP.pdf)
 
-Before publishing, inspect the workbook itself—not just the visible worksheet—to check for sensitive data in hidden rows or columns, hidden worksheets, comments, notes, formulas, named ranges, document properties, and pivot caches or other embedded data. Remove sensitive content from the copy you intend to publish and reopen that copy to verify it. Keep the original workbook private if anonymisation cannot be confirmed.
+## 🔐 Privacy reminder
 
-## Project summary
+Before sharing, review the workbook and screenshots for customer-identifying or confidential information, including content in hidden rows, columns, or worksheets. Do not publish sensitive data. If needed, create and review an anonymised copy before uploading it.
 
-This project demonstrates a documented Excel data preparation workflow: handling missing categorical values, checking identifier uniqueness, standardising date and currency presentation, and validating the cleaned dataset. All reported results above are based on the project information provided.
+## 💼 Project summary
+
+Completed an Excel-based data cleaning workflow on a 1,200-record dataset: replaced 309 missing Coupon Code entries with `No Coupon`, checked Order IDs for duplicates, standardised date and currency formatting, and validated the results. The checks reported **0 duplicate Order IDs**, **1,200 numeric date entries**, and **0 remaining blank cells**.
